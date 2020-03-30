@@ -24,11 +24,11 @@ You will need to download these datasets and add them to a local folder in order
 
 ### Create database
 
-The relational schema we use to consolidate the data sources mentioned above is [available in MySQL jargon](datasets_input/SQL_database_schema/projectdb_covid_schema.sql).
+The relational schema we use to consolidate the data sources mentioned above is available as a [SQL script](datasets_input/SQL_database_schema/projectdb_covid_schema.sql) (working at least on MySQL).
 
 ![SQL schema](datasets_input/SQL_database_schema/projectdb_covid_schema.png)
 
-You can use the [Notebook_1_SQL_database](Notebook_1_SQL_database.ipynb) notebook to create it. This notebook allows you to ingest data into a MySQL instance of your choice, where an empty database exists with the above-mentioned schema, or to export the relaitonal data to Pandas tables.
+You can use the [Notebook_1_SQL_database](Notebook_1_SQL_database.ipynb) notebook to populate this database. This notebook allows you to insert data into a MySQL instance of your choice, where an empty database is assumed to exist with the above-mentioned schema. Alternatively, it allows you to export the relational data to Pandas tables.
 
 ### Query Dimensions and Altmetrics
 
@@ -40,7 +40,7 @@ Finally, using the [Notebook_3_metadata_overview](Notebook_3_metadata_overview.i
 
 ## How to give feedback
 
-Please open an issue.
+Please open an issue, or propose changes using a Pull Request.
 
 ## How to cite
 
