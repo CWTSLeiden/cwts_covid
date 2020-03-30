@@ -16,7 +16,7 @@ For the moment, we consider publications from the following sources:
 * [Dimensions](https://docs.google.com/spreadsheets/d/1-kTZJZ1GAhJ2m4GAIhw1ZdlgO46JpvX0ZQa232VWRmw/edit#gid=2034285255) (last updated March 28, 2020): 
 * [WHO](https://www.who.int/emergencies/diseases/novel-coronavirus-2019/global-research-on-novel-coronavirus-2019-ncov) (last updated March 28, 2020)
 
-You will need to download these datasets and add them to a local folder in order to process them. We assume that you will have a local copy of the whole CORD19 dataset, and a ``csv'' file with publication metadata for Dimensions and WHO. Please see the notebooks below for more details.
+You will need to download these datasets and add them to a local folder in order to process them. We assume that you will have a local copy of the whole CORD19 dataset, and a `csv` file with publication metadata for Dimensions and WHO. Please see the notebooks below for more details.
 
 *In the future, we might expand to more sources.*
 
@@ -24,7 +24,7 @@ You will need to download these datasets and add them to a local folder in order
 
 ### Create database
 
-The relational schema we use to consolidate the data sources mentioned above is [available in MySQL jargon](datasets_input/SQL_database_schema/projectdb_covid_schema.sql). **ADD IMAGE**
+The relational schema we use to consolidate the data sources mentioned above is [available in MySQL jargon](datasets_input/SQL_database_schema/projectdb_covid_schema.sql).
 
 You can use the [Notebook_1_SQL_database](Notebook_1_SQL_database.ipynb) notebook to create it. This notebook allows you to ingest data into a MySQL instance of your choice, where an empty database exists with the above-mentioned schema, or to export the relaitonal data to Pandas tables.
 
