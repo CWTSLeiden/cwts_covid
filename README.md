@@ -8,6 +8,10 @@ The code in this repository allows you to do the following steps:
 * Query the Dimensions and Altmetrics APIs to get more data on these publications (you will need to use your own API keys for this).
 * Do some basic plotting of this data.
 
+This workflow can be illustrated as follows:
+
+![Workflow](datasets_input/SQL_database_schema/workflow.png)
+
 ## Data sources
 
 For the moment, we consider publications from the following sources:
