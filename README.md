@@ -16,9 +16,9 @@ This workflow can be illustrated as follows:
 
 For the moment, we consider publications from the following sources:
 
-* [CORD19](https://pages.semanticscholar.org/coronavirus-research) (last updated March 28, 2020): 
-* [Dimensions](https://docs.google.com/spreadsheets/d/1-kTZJZ1GAhJ2m4GAIhw1ZdlgO46JpvX0ZQa232VWRmw/edit#gid=2034285255) (last updated March 28, 2020): 
-* [WHO](https://www.who.int/emergencies/diseases/novel-coronavirus-2019/global-research-on-novel-coronavirus-2019-ncov) (last updated March 28, 2020)
+* [CORD19](https://pages.semanticscholar.org/coronavirus-research) (last updated April 04, 2020): 
+* [Dimensions](https://docs.google.com/spreadsheets/d/1-kTZJZ1GAhJ2m4GAIhw1ZdlgO46JpvX0ZQa232VWRmw/edit#gid=2034285255) (last updated April 04, 2020): 
+* [WHO](https://www.who.int/emergencies/diseases/novel-coronavirus-2019/global-research-on-novel-coronavirus-2019-ncov) (last updated April 04, 2020)
 
 You will need to download these datasets and add them to a local folder in order to process them. We assume that you will have a local copy of the whole CORD19 dataset, and a `csv` file with publication metadata for Dimensions and WHO. Previous releases of the Dimensions and WHO lists can be found in the [datasets_input](datasets_input) folder. Please also see the notebooks below for more details. 
 
@@ -39,7 +39,7 @@ You can use the [Notebook_1_SQL_database](Notebook_1_SQL_database.ipynb) noteboo
 * The `pub` table contains publications from all data sources. If you would like to work with publications coming exclusively from one data source, join it with the `datasource` table via the `pub_datasource` table. 
 * The primary keys of all tables (`pub_id`, `covid19_mtadata_id`, `who_metadata_id`, `dimensions_metadata_id`, `datasource_id`) are not stable and are only internally consistent: if you create different versions of the database, they will likely differ.
 * In order to work with Dimensions and Altmetrics data, *publication identifiers* should be used. Please give preference to DOIs, then to PMIDs, then to PMCIDs (listed in order of coverage). 
-* We removed a few (<1000) publications which had no known identifier among these three options. These are usually pre-prints, which are likely to be equipped with an identifier in future releases.
+* We removed a few (~1000) publications which had no known identifier among these three options. These are usually pre-prints, which are likely to be equipped with an identifier in future releases.
 * The `metadata` tables contain fields which are specific to a datasource, and we considered potentially useful. They are only available for publications coming from that datasource.
 
 ### Query Dimensions and Altmetrics

@@ -2,6 +2,7 @@
 credentials/
 datasets_input/CORD19*
 datasets_output/
+figures/
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
