@@ -46,7 +46,7 @@ You can use the [Notebook_1_SQL_database](Notebook_1_SQL_database.ipynb) noteboo
 
 You can then query [Dimensions](https://docs.dimensions.ai/dsl) and [Altmetrics](https://api.altmetric.com) APIs using your own keys, using the [Notebook_2_API_queries](Notebook_2_API_queries.ipynb) notebook. You can request access as a researcher here: https://www.dimensions.ai/scientometric-research.
 
-### Data overview
+### Data analysis
 
 Finally, using the [Notebook_3_metadata_overview](Notebook_3_metadata_overview.ipynb) and [Notebook_4_API_data_overview](Notebook_4_API_data_overview.ipynb) notebooks, you can get an overview of some of the resulting metadata and data.
 
