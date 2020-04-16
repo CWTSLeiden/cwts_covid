@@ -48,7 +48,18 @@ You can then query [Dimensions](https://docs.dimensions.ai/dsl) and [Altmetrics]
 
 ### Data overview
 
-Finally, using the [Notebook_3_metadata_overview](Notebook_3_metadata_overview.ipynb) and [Notebook_4_API_data_overview](Notebook_4_API_data_overview.ipynb) notebooks, you can get an overview of some of the resulting metadata and data.
+Using the [Notebook_3_metadata_overview](Notebook_3_metadata_overview.ipynb) and [Notebook_4_API_data_overview](Notebook_4_API_data_overview.ipynb) notebooks, you can get an overview of some of the resulting metadata and data.
+
+### Replication of paper findings
+
+Finally, there are three notebooks to help replicate at least part of the analysis in the accompanying paper **(CITE preprint here)**:
+* [Notebook_CORD-19_1_overview](Notebook_CORD-19_1_overview.ipynb) contains the metadata overview of CORD-19.
+* [Notebook_CORD-19_2_text_analysis](Notebook_CORD-19_2_text_analysis.ipynb) contains the topic modelling analysis, including its use to qualify citation network clusters.
+* [Notebook_CORD-19_3_network_analysis](Notebook_CORD-19_3_network_analysis.ipynb) contains an alternative way to perform a citation network analysis, focused on the bibliographic coupling network of CORD-19 papers. Results of this analysis are comparable to what is reported in the paper.
+
+The two citation network clustering solutions discussed in the paper, using both CORD-19 and external references, is also provided as a [separate file](datasets_input/paper_CORD19_supporting_materials/clustering_04042020.csv).
+
+Some steps in the analyses are not included here since they require proprietary data. They can be replicated by getting access to the data (see above) and following the steps detailed in the paper. 
 
 ## How to give feedback
 
@@ -56,7 +67,7 @@ Please open an issue, or propose changes using a Pull Request.
 
 ## How to cite
 
-TBD
+**(CITE preprint here)**
 
 ## Acknowledgements
 
