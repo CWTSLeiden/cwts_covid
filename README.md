@@ -57,7 +57,7 @@ Finally, there are three notebooks to help replicate at least part of the analys
 * [Notebook_CORD-19_2_text_analysis](Notebook_CORD-19_2_text_analysis.ipynb) contains the topic modelling analysis, including its use to qualify citation network clusters.
 * [Notebook_CORD-19_3_network_analysis](Notebook_CORD-19_3_network_analysis.ipynb) contains an alternative way to perform a citation network analysis, focused on the bibliographic coupling network of CORD-19 papers. Results of this analysis are comparable to what is reported in the paper.
 
-The two citation network clustering solutions discussed in the paper, using both CORD-19 and external references, is also provided as a [separate file](datasets_input/paper_CORD19_supporting_materials/clustering_04042020.csv).
+The two citation network clustering solutions discussed in the paper, using both CORD-19 and external references, is also provided as a [separate file](datasets_input/paper_CORD19_supporting_materials/clustering_04042020.csv). These results are generated using [cluster.py](cluster.py). This may require installation of the development version of [`python-igraph`](https://github.com/igraph/python-igraph), until the upcoming release (0.8.1) is out. We therefore also include the actual clustering results themselves.
 
 Some steps in the analyses are not included here since they require proprietary data. They can be replicated by getting access to the data (see above) and following the steps detailed in the paper. 
 
