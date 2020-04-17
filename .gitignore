@@ -1,7 +1,7 @@
 # Project specific stuff
 credentials/
 datasets_input/CORD19*
-datasets_output/
+datasets_output*
 figures/
 
 # Byte-compiled / optimized / DLL files
