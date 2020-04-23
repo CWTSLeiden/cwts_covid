@@ -67,7 +67,19 @@ Please open an issue, or propose changes using a Pull Request.
 
 ## How to cite
 
-**(CITE preprint here)**
+```
+@article {Colavizza2020.04.20.046144,
+    author = {Colavizza, Giovanni and Costas, Rodrigo and Traag, Vincent A. and van Eck, Nees Jan and van Leeuwen, Thed and Waltman, Ludo},
+    title = {A scientometric overview of CORD-19},
+    elocation-id = {2020.04.20.046144},
+    year = {2020},
+    doi = {10.1101/2020.04.20.046144},
+    publisher = {Cold Spring Harbor Laboratory},
+    URL = {https://www.biorxiv.org/content/early/2020/04/20/2020.04.20.046144},
+    eprint = {https://www.biorxiv.org/content/early/2020/04/20/2020.04.20.046144.full.pdf},
+    journal = {bioRxiv}
+}
+```
 
 ## Acknowledgements
 
