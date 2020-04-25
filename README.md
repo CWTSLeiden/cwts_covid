@@ -16,9 +16,9 @@ This workflow can be illustrated as follows:
 
 For the moment, we consider publications from the following sources:
 
-* [CORD19](https://pages.semanticscholar.org/coronavirus-research) (last updated April 10, 2020): 
-* [Dimensions](https://docs.google.com/spreadsheets/d/1-kTZJZ1GAhJ2m4GAIhw1ZdlgO46JpvX0ZQa232VWRmw/edit#gid=2034285255) (last updated April 10, 2020): 
-* [WHO](https://www.who.int/emergencies/diseases/novel-coronavirus-2019/global-research-on-novel-coronavirus-2019-ncov) (last updated April 10, 2020)
+* [CORD19](https://pages.semanticscholar.org/coronavirus-research) (last updated April 24, 2020): 
+* [Dimensions](https://docs.google.com/spreadsheets/d/1-kTZJZ1GAhJ2m4GAIhw1ZdlgO46JpvX0ZQa232VWRmw/edit#gid=2034285255) (last updated April 24, 2020): 
+* [WHO](https://www.who.int/emergencies/diseases/novel-coronavirus-2019/global-research-on-novel-coronavirus-2019-ncov) (last updated April 24, 2020)
 
 You will need to download these datasets and add them to a local folder in order to process them. We assume that you will have a local copy of the whole CORD19 dataset, and a `csv` file with publication metadata for Dimensions and WHO. Previous releases of the Dimensions and WHO lists can be found in the [datasets_input](datasets_input) folder. Please also see the notebooks below for more details. 
 
